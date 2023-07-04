@@ -6,6 +6,7 @@
 body {
     font-family: 'Ruda';
     color: #FFF;
+    font-size: 16px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -146,6 +147,20 @@ body {
       -ms-flex: 50%;
       flex: 50%;
       max-width: 50%;
+    }
+
+    .content-text h1 {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 42.5px;
+        letter-spacing: 5.09px;
+    }
+    
+    .redline {
+        width: 260px;
+    }
+    .headingline {
+        width: 126px;
     }
   }
 
