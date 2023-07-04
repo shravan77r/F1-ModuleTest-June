@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ruda';
+    color: #FFF;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #808080;
+}
+
+.sm-icons {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 960px) {
+    .sm-icons .nav-item {
+        padding-right: 1em;
+    }
+}
+
+.main-content {
+    background-image: url('../F1-ModuleTest-June/pizza1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.content-text {
+    width: 902px;
+    height: 215px;
+}
+
+.content-text h1 {
+    text-align: center;
+    font-size: 86px;
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5px;
+    letter-spacing: 10.09px;
+    margin-top: -10%;
+}
+
+.redline {
+    width: 586px;
+    height: 13px;
+    background: #F24C4C;
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 116px;
+}
+
+.content2-text {
+    width: 499px;
+    height: 325px;
+}
+
+.content2-text p {
+    font-size: 12px;
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+    margin-left: 116px;
+}
+
+.headingline {
+    width: 326px;
+    height: 10px;
+    background: #B62828;
+    margin: auto;
+}
+
+.about-text {
+    max-width: 400px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.25px;
+}
+
+.menu-text {
+    max-width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.25px;
+}
+
+
+.menu-item img {
+    width: 180px;
+    height: 130px;
+    margin-right: 20px;
+}
+
+.menu-item-details {
+    width: 280px;
+    height: 51px;
+}
+
+.menu-item-details h3 {
+    color: #F2C94C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu-item-details p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.8px;
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
